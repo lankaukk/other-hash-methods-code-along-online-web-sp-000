@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min
+  alphabetical_order = {c: 100, d: 1}
+alphabetical_order.min
 end
